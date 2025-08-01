@@ -1,0 +1,15 @@
+nohup: ignoring input
+INFO:     Started server process [617932]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     172.59.82.96:0 - "GET /incidents/addresses?q=166 HTTP/1.0" 200 OK
+INFO:     172.59.82.96:0 - "GET /incidents/addresses?q=1666 HTTP/1.0" 200 OK
+INFO:     172.59.82.96:0 - "GET /incidents/?address=1666%20ALEXANDRIA%20DR&skip=0&limit=20 HTTP/1.0" 200 OK
+INFO:     172.59.82.96:0 - "GET /incidents/addresses?q=166 HTTP/1.0" 200 OK
+INFO:     172.59.82.96:0 - "GET /incidents/?address=166%20HAYS%20BLVD&skip=0&limit=20 HTTP/1.0" 200 OK
+INFO:     149.86.227.127:26154 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     115.231.78.11:44518 - "GET / HTTP/1.1" 404 Not Found
+INFO:     115.231.78.11:44610 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     115.231.78.11:44708 - "GET /robots.txt HTTP/1.1" 404 Not Found
