@@ -61,6 +61,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_4B5194B792654603975A77F30E597F0F }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_57FBAE6253EB440ABC2238A6974F264C }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_36AE0344BD134858BD19AC4169AF7AD0 }}
+          auth-type: 'SERVICE_PRINCIPAL'
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -68,4 +69,3 @@ jobs:
         with:
           app-name: 'bestbestman'
           slot-name: 'Production'
-          
